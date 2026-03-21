@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lab1.dir/main.c.o CMakeFiles/lab1.dir/typeinfodouble.c.o CMakeFiles/lab1.dir/typeinfocomplex.c.o CMakeFiles/lab1.dir/polynomial.c.o CMakeFiles/lab1.dir/polynomial_errors/polyerr.c.o -o lab1

@@ -1,0 +1,4 @@
+/Users/artyom/CLionProjects/lab1/CMakeFiles/lab1.dir
+/Users/artyom/CLionProjects/lab1/CMakeFiles/test.dir
+/Users/artyom/CLionProjects/lab1/CMakeFiles/edit_cache.dir
+/Users/artyom/CLionProjects/lab1/CMakeFiles/rebuild_cache.dir

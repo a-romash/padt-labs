@@ -1,0 +1,6 @@
+#ifndef LAB1_TESTTYPEINFOCOMPLEX_H
+#define LAB1_TESTTYPEINFOCOMPLEX_H
+
+void testTypeInfoComplexAll();
+
+#endif //LAB1_TESTTYPEINFOCOMPLEX_H
