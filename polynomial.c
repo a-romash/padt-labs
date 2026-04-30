@@ -186,6 +186,7 @@ char* polynomialToString(const Polynomial* polynomial) {
 
         // evaluate needed amount of mem for temp buffer
         int tmp_buf_size = type->toString(coeff, NULL, 0);
+        // len("^<pow>") + len("x") + len("+" if coeff >= 0) + 1 ("\0")
         tmp_buf_size += snprintf(NULL, 0, "^%zu", i)*(i > 1) + (i != 0) + (i != 0 && cmp > 0) + 1;
         char* tmp = malloc(tmp_buf_size);
         if (tmp == NULL) { free(buf); return NULL; }

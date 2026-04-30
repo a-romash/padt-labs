@@ -16,7 +16,7 @@ PolyError sumPolynomial(const Polynomial* polynomial, const Polynomial* other, P
 PolyError multPolynomial(const Polynomial* polynomial, const Polynomial* other, Polynomial* result);
 PolyError multPolynomialByScalar(Polynomial* polynomial, const void* scalar);
 PolyError computePolynomial(const Polynomial* polynomial, const void* value, void* result);
-//todo: корни полинома
+//todo: (допзадача) корни полинома
 char* polynomialToString(const Polynomial* polynomial);
 
 #endif //LAB1_POLYNOMIAL_H

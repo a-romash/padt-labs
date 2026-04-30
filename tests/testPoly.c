@@ -50,7 +50,6 @@ static int mockToString(const void* a, char* buf, size_t len) {
     return snprintf(buf, len, "%d", *(const int*)a);
 }
 
-
 static TypeInfo mock_ti = {
     sizeof(int),
     mockAdd,
