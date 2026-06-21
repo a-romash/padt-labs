@@ -1,0 +1,8 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea
+cmake-build-debug
+program
+!collections/tests
+test
