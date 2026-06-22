@@ -7,3 +7,4 @@ program
 !collections/tests
 !collections/lazysequence/tests
 test
+gui/build
